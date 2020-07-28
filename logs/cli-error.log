@@ -1,0 +1,902 @@
+2020-07-27 20:49:05 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ControllerCommand.php:58
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ControllerCommand.php:58
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:14:59 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:85
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:85
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:37:55 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:38:03 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:38:32 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:38:58 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:42:23 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 21:56:20 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:01:41 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): Error while reading greeting packet. PID=56052 in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:04:11 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): Error while reading greeting packet. PID=56402 in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:07:02 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2006] MySQL server has gone away in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): Error while reading greeting packet. PID=56710 in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:10:19 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:11:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.projeto' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.projeto' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:12:08 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:14:42 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:15:42 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Connection refused in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Connection refused',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Connection refused in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:15:57 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:25:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Projeto.locais' doesn't exist in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:200
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:26:05 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'Locais' in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'Locais\'',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'Locais' in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
+2020-07-27 22:26:19 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'Locais' in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 121
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'Locais\'',
+)
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'Locais' in /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php on line 118
+Stack Trace:
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver.php:118
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /opt/lampp/htdocs/Meus_Locais/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /opt/lampp/htdocs/Meus_Locais/bin/cake.php:12
+
+
+
